@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Oka</title>
+  <script type="text/javascript" src="inicio.js"></script>
+  <link rel="stylesheet" href="inicio.css">
+</head>
+
+<header>
+
+  <nav class="nav-bar">
+    <div class="logo">
+      <h1>Oka.</h1>
+    </div>
+
+    <div class="nav-list">
+      <ul>
+        <li class="nav-item"> <a href="origem.html" class="nav-link">Origem</a></li>
+        <li class="nav-item"> <a href="educacao.html" class="nav-link">Educação</a></li>
+        <li class="nav-item"> <a href="religião.html" class="nav-link">Religião</a></li>
+        <li class="nav-item"> <a href="territorio.html" class="nav-link">Território</a></li>
+        <li class="nav-item"> <a href="galeria.html" class="nav-link">Galeria de Fotos</a></li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu-icon">
+      <button onclick="menuShow()"> <img class="icon" src="fotos/menu_white_36dp.svg"></button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <ul>
+      <li class="nav-item"> <a href="origem.html" class="nav-link">Origem</a></li>
+      <li class="nav-item"> <a href="educacao.html" class="nav-link">Educação</a></li>
+      <li class="nav-item"> <a href="religião.html" class="nav-link">Religião</a></li>
+      <li class="nav-item"> <a href="territorio.html" class="nav-link">Território</a></li>
+      <li class="nav-item"> <a href="galeria.html" class="nav-link">Galeria de fotos</a></li>
+    </ul>
+  </div>
+</header>
+
+<body>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <!--código do titulo das páginas-->
+
+  <div id="titulo">
+
+    <h1 class="titulo">PROJETO OKA</h1>
+
+  </div>
+
+  <!--código dos textos das páginas-->
+  </div>
+
+  <div id="texto">
+    <p>
+      <strong>Autora:</strong> Projeto Oka é uma iniciativa concebida e desenvolvida inicialmente pela aluna Sthefany Oliveira e continuada pelas alunas Lavínia Suelen, Eduarda Menezes e Nathália Lopes do 4º ano de informática no período da tarde. 
+       <br> <br>O propósito inicial proposto por Sthefany deste site é atingir o máximo de pessoas possível para que elas conheçam um pouco sobre a história da comunidade Katu, visando contribuir de alguma forma para a proteção dessa comunidade.
+       A ideia central é que todos os conteúdos do projeto sejam narrados por um indígena. Assim, todos os trechos de texto presentes no site foram transcritos de uma entrevista conduzida pelas autoras do site em colaboração com uma equipe. Dessa forma, todas as falas contidas no site são reproduções exatas das declarações das pessoas entrevistadas, não foi acrescentada ou removida qualquer fala citada nas entrevistas.
+      <br> <br> A continuação desse projeto desenvolvido por Lavínia, Eduarda e Nathália tem como objetivo a  utilização de um site voltado para educação, focando no ensino em sala de aula, por meio do qual os professores poderão utilizá-lo em aulas sobre comunidades indígenas potiguares ou antes das visitas à comunidade Katu, apresentando-a para os discentes para que esses possam ter um pequeno panorama de como é a vida do povo do Katu, dilacerando estereótipos muito comuns à todos.
+      
+
+  </div>
+
+  <!--código das fotos da página-->
+  <div class="carousel">
+
+    <input type="radio" name="carousel" id="slide1" checked>
+    <input type="radio" name="carousel" id="slide2">
+    <input type="radio" name="carousel" id="slide3">
+    <input type="radio" name="carousel" id="slide4">
+
+    <div class="slides">
+      <div class="slide">
+        <img src="fotos/frente.jpeg" alt="Slide 1">
+       <center> <p> Luiz Katu, cacique</p> </center>
+      </div>
+
+      <div class="slide">
+        <img src="fotos/entrevista.JPG" alt="Slide 2">
+        <center> <p> Entrevista com Luiz</p> </center>
+      </div>
+
+      <div class="slide">
+        <img src="fotos/costas.jpeg" alt="Slide 3">
+        <center> <p> Luiz katu </p> </center>
+      </div>
+
+      <div class="slide">
+        <img src="fotos/nossa foto.jpg" alt="Slide 4">
+        <center> <p> Nossa foto na frente da escola  </p> </center>
+      </div>
+
+
+    </div>
+
+    <div class="navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+    </div>
+    
+</body>
+
+
+</html>

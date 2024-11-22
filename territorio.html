@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Oka</title>
+  <script type="text/javascript" src="inicio.js"></script>
+  <link rel="stylesheet" href="inicio.css">
+</head>
+
+<header>
+
+  <nav class="nav-bar">
+    <div class="logo">
+      <h1>Oka.</h1>
+    </div>
+
+    <div class="nav-list">
+      <ul>
+        <li class="nav-item"> <a href="inicio.html" class="nav-link">Início</a></li>
+        <li class="nav-item"> <a href="origem.html" class="nav-link">Origem</a></li>
+        <li class="nav-item"> <a href="educacao.html" class="nav-link">Educação</a></li>
+        <li class="nav-item"> <a href="religião.html" class="nav-link">Religião</a></li>
+        <li class="nav-item"> <a href="galeria.html" class="nav-link">Galeria de Fotos</a></li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu-icon">
+      <button onclick="menuShow()"> <img class="icon" src="fotos/menu_white_36dp.svg"></button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <ul>
+      <li class="nav-item"> <a href="inicio.html" class="nav-link">Início</a></li>
+      <li class="nav-item"> <a href="origem.html" class="nav-link">Origem</a></li>
+      <li class="nav-item"> <a href="educacao.html" class="nav-link">Educação</a></li>
+      <li class="nav-item"> <a href="religião.html" class="nav-link">Religião</a></li>
+      <li class="nav-item"> <a href="galeria.html" class="nav-link">Galeria de fotos</a></li>
+    </ul>
+  </div>
+</header>
+
+<body>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <!--código do titulo das páginas-->
+
+  <div id="titulo">
+
+    <h1 class="titulo">DEMARCAÇÃO DE TERRAS</h1>
+
+  </div>
+
+  <!--código dos textos das páginas-->
+  </div>
+
+  <div id="texto">
+    <p>
+      Não é de hoje que demarcação de terras na comunidade Katu é uma questão de muita luta para os indígenas que
+      habitam a região. A população sofre constantes ataques devido a ausência de fronteiras definidas e o avanço da
+      monocultura de cana de açúcar sobre as residências indígenas e suas áreas agricultáveis.
+      <br> <br>
+      <center> <div class="video1">
+        <iframe  src="https://www.youtube.com/embed/xYopw9HqwOA?si=S-4dHmCtDNDSgexo"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+      </center>
+      <br> <br>
+      Os proprietários das plantações mono açucareiras entram em contato com os povos originários para apresentar os
+      benefícios da mesma para eles, ofertando empregos e subsídios que seriam utilizados a favor da comunidade mas com
+      o decorrer do tempo, as empresas contratam duas ou três pessoas e agridem a propriedade indígena como um todo.
+      <br> <br>
+      Como as famílias vivem da agricultura familiar e da comercialização desses produtos, a ocupação imprópria de suas
+      terras causam danos a sua subsistência e a economia, afetando a comunidade.
+      <br> <br>
+      O avanço das plantações é uma prática negativa não apenas para a terra em si, mas para as pessoas que habitam na
+      área, visto que as queimadas realizadas após colheitas e a utilização de pesticidas afetam a vida da população que
+      sofre com problemas respiratórios e intoxicações.
+      <br> </br>
+
+      <center> <div class="video2">
+        <iframe src="https://www.youtube.com/embed/YXW1yX8wxPQ?si=BWp2zaruy1vAmEJW"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+      </center>
+      <br> <br>
+
+
+  </div>
+
+  <div id="texto">
+    <p>
+      Portanto, os povos originários, mesmo com suas terras roubadas, histórias apagadas e com sua cultura a beira de
+      extinção ainda lutam para sobreviver ao mundo contemporâneo. O conhecimento dos povos indígenas, o qual os
+      permitiu viver nas américas por milhares de anos, não pode ser descrebilizados e sim respeitado e difundido na
+      população brasileira.
+    </p>
+  </div>
+
+  <div class="carousel">
+
+    <input type="radio" name="carousel" id="slide1" checked>
+    <input type="radio" name="carousel" id="slide2">
+   
+
+    <div class="slides">
+      <div class="slide">
+        <img src="fotos/monocultura2.JPG" alt="Slide 1">
+        <center>
+          <p> Monocultura de cana-de-açúcar </p>
+        </center>
+      </div>
+
+      <div class="slide">
+        <img src="fotos/monocultura.JPG" alt="Slide 2">
+        <center>
+          <p> Monocultura de cana-de-açúcar </p>
+        </center>
+      </div>
+
+    </div>
+
+</body>
+
+
+</html>
