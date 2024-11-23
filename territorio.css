@@ -74,12 +74,13 @@ body {
   display: none;
 }
 
-#titulo {
+.titulo {
   color: black;
   font-family: 'Courier New', Courier, monospace;
   text-align: 50%;
   font-size: 150%;
   padding-top: 5%;
+  margin-left: 4%;
   text-align: center;
 
 
@@ -164,6 +165,7 @@ body {
 }
 
 @media screen and (max-width: 730px) {
+
   header {
     height: 100px;
     
@@ -204,6 +206,8 @@ body {
 
   .titulo{
     margin-top: 10%;
+    font-size: 115%;
+    text-align: center;
   }
 }
 
@@ -400,11 +404,11 @@ body {
     margin-top: 10%;
   }
 
-  #titulo {
+  .titulo {
     color: black;
     font-family: 'Courier New', Courier, monospace;
     text-align: 50%;
-    font-size: 150%;
+    font-size: 100%;
     padding-top: 5%;
     text-align: center;
 
