@@ -311,14 +311,8 @@ body {
 
 
 @media screen and (max-width: 730px) {
-  #texto1{
-    margin-top: 31%;
-  }
   #texto2{
-    margin-top: 31%;
-  }
-  #texto3{
-    margin-top: 64%;
+    margin-top: 50%;
   }
   .imagem1{
     height: 200px;

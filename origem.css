@@ -7,24 +7,20 @@
 .video1{
   width: 100%;
   height: auto;
-  margin-left: 40%;
-  display: inline;
+   
   
 }
  
 .video2{
-  width: 600px;
-  height: 400px;
-  margin-left: 40%;
-  display: inline;
+  width: 100%;
+  height: auto;
+
   
 }
  
 .video3{
-  width: 600px;
-  height: 400px;
-  margin-left: 40%;
-  display: inline;
+  width: 100%;
+  height: auto;
   
 }
  
@@ -622,20 +618,16 @@ body {
       overflow-x: hidden;
   }
   
- 
   .video1{
     width: 100%;
     height: auto;
-   margin-left: 110px;
-   
-    
+
     
   }
 
   .video2{
     width: 100%;
     height: auto;
-    margin-left: 110px;
     
   }
    
@@ -643,10 +635,10 @@ body {
   .video3{
     width: 100%;
     height: auto;
-    margin-left: 110px;
     
   }
     
+ 
   .nav-bar {
     padding: 1.5rem 4rem;
 
